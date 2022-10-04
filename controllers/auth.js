@@ -48,7 +48,6 @@ exports.login = (req, res, next) => {
 };
 
 exports.register = async (req, res, next) => {
-  console.log('hey');
   const user = req.body;
   console.log(user);
 
